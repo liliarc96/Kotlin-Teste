@@ -46,6 +46,6 @@ fun main() {
     }
     
     val a:Int? = null
-    var number = a ?: 0
+    var number = a ?: 0 // se a não for nulo atribui o valor, se for atribui o valor 0
     }
 }
