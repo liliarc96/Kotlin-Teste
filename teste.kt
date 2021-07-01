@@ -47,6 +47,5 @@ fun main() {
     
     val a:Int? = null
     var number = a ?: 0
-    
-    https://www.casasbahia.com.br/monitor-led-21-5-aoc-full-hd-22b1h-com-conexao-hdmi-e-base-ajustavel-13937084/p/13937084?utm_medium=Cpc&utm_source=GP_PLA&IdSku=13937084&idLojista=10037&utm_campaign=elte_smart-shopping&gclid=EAIaIQobChMInOC7pPDB8QIV4xmtBh1BhwRmEAQYEyABEgI95vD_BwE
+    }
 }
