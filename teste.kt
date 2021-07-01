@@ -48,5 +48,4 @@ fun main() {
     val a:Int? = null
     var number = a ?: 0
     }
-https://www.extra.com.br/monitor-gamer-samsung-24-sd332-full-hd-1ms-75-hz-game-mode-flicker-free-hdmi-55014157/p/55014157?utm_medium=cpc&utm_source=GP_PLA&IdSku=55014157&idLojista=15&utm_campaign=long_smart-shopping-1p&gclid=EAIaIQobChMIxKzyy_TB8QIVfAytBh1b4Qp4EAQYEiABEgJyNPD_BwE
 }
