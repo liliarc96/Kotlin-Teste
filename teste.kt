@@ -48,4 +48,44 @@ fun main() {
     val a:Int? = null
     var number = a ?: 0 // se a não for nulo atribui o valor, se for atribui o valor 0
     }
+    
+    //atribuições
+    val maxValue = if(a>b) a else if(b>a) b else b // maxValue recebe a se a for maior que b, e recebe b se b for maior que a ou se os valores foram iguais
+    val minValue = if(a>b){
+        println("$b é menor que $a")
+        b
+    }else if(a<b){
+        println("$a é menor que $b")
+        a
+    }else{
+        println("Os dois valores são iguais")
+        b
+    }
+    
+    //when
+    when(year){
+        in -4000..475 -> {} //antiguidade
+        in 476..1452 -> {} //medieval
+        in 1453..1789 -> {} //moderna
+        currentYear -> {} //ano atual
+        else -> {}
+    }
+    
+    when(){
+        a>b -> {}
+        a!=b && a>c -> {}
+        b==0 -> {}
+        else -> {}
+    }
+    
+    //repetição, aceita (in, range, until, downTo, step)
+    while(condição){
+    }
+    
+    do{
+    }while(condição)
+    
+    for(i in 0..20 step 2){
+        println(i)
+    }
 }
